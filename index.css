@@ -1,0 +1,50 @@
+.curve {
+    background: rgb(77, 187, 241);
+    padding: 100px 0;
+    transform: skew(0deg, -4deg) translateY(-90px);
+    position: relative;
+}
+
+.circle {
+    height: 200px; 
+    width:200px;
+    border:15px solid rgb(118, 200, 241);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.circle-font {
+    margin-top: 55px; 
+    font-size: 35px;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+.imagePos {
+    margin-top: -150px;
+    margin-left: 45%;
+    position: absolute;
+}
+
+.circleDot {
+    height: 30px;
+    width: 30px;
+    margin-left: 255px
+}
+
+@media only screen and (max-width: 768px) {
+    .imagePos {
+        margin-left: 37%;
+        position: absolute;
+    }
+
+    .circleDot {
+        height: 30px;
+        width: 30px;
+        margin-left: 150px
+    }
+}
